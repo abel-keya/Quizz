@@ -1,50 +1,122 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context="com.example.android.quizapp.MainActivity"
-    android:orientation="vertical">
+    tools:context="com.example.android.quizapp.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Which of the following is a mobile based databse?" />
 
-            <TextView
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="20dp"
+            android:background="@color/colorAccent">
+            <RadioButton
+                android:id="@+id/radioButton1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/which_of_the_folloing_is_the_name_of_the_4th_president_of_kenya"
-                android:textColor="@color/colorAccent" />
-               <RadioGroup
-                   android:layout_width="match_parent"
-                   android:layout_height="200dp">
-                <Button
-                android:id="@+id/Button1"
-                android:layout_width="0dp"
+                android:padding="10dp"
+                android:text="SQLite" />
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:layout_marginTop="10dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryDark"
-                android:text="@string/moi" />
-               <Button
-                android:id="@+id/Button2"
-                android:layout_width="0dp"
+                android:padding="10dp"
+                android:text="Intent"
+                />
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:layout_marginTop="10dp"
-                android:layout_weight="1"
-                android:background="@color/colorAccent"
-                android:text="@string/raila" />
-               <Button
-                android:id="@+id/Button3"
-                android:layout_width="0dp"
+                android:padding="10dp"
+                android:text="Karnel"
+                />
+            <RadioButton
+                android:id="@+id/radioButton4"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:layout_marginTop="10dp"
-                android:layout_weight="1"
-                android:background="@color/colorAccent"
-                android:text="@string/uhuru" />
-               </RadioGroup>
-</LinearLayout>
+                android:padding="10dp"
+                android:text="View"
+                />
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Quiz. 2. A View contained within another view is called?" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimaryDark">
+            <RadioButton
+                android:id="@+id/radioButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="cascade View" />
+            <RadioButton
+                android:id="@+id/radioButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Hidden View" />
+            <RadioButton
+                android:id="@+id/radioButton7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Child View" />
+            <RadioButton
+                android:id="@+id/radioButton8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Container View" />
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Quiz 3. A visible screen on an android app is refered to as"
+            android:textColor="@color/colorAccent"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/colorAccent"
+            android:text="----------------------"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quiz 4. Select only the mobile operating systems"
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Symbian"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="iOS"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="firebase"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zamarin"/>
+    </LinearLayout>
+</ScrollView>
