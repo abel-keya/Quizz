@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">QuizAPP</string>
+    <string name="ResultButtonText" />
+    <string name="which_of_the_folloing_is_the_name_of_the_4th_president_of_kenya">Which of the folloing is the name of the 4th President of kenya?</string>
+    <string name="raila">Raila</string>
+    <string name="moi">Moi</string>
+    <string name="uhuru">Uhuru</string>
+    <string name="twenty_years">Twenty years</string>
+    <string name="thirty_years">Thirty years</string>
+    <string name="forty_years">Forty years</string>
+    <string name="what_is_your_age">What is your Age?</string>
+</resources>
