@@ -9,4 +9,22 @@
     <string name="thirty_years">Thirty years</string>
     <string name="forty_years">Forty years</string>
     <string name="what_is_your_age">What is your Age?</string>
+    <string name="which_of_the_following_is_a_mobile_based_databse">Which of the following is a mobile based databse?</string>
+    <string name="sqlite">SQLite</string>
+    <string name="intent">Intent</string>
+    <string name="karnel">Karnel</string>
+    <string name="view">View</string>
+    <string name="quiz_2_a_view_contained_within_another_view_is_called">Quiz. 2. A View contained within another view is called?</string>
+    <string name="cascade_view">cascade View</string>
+    <string name="hidden_view">Hidden View</string>
+    <string name="child_view">Child View</string>
+    <string name="container_view">Container View</string>
+    <string name="quiz_3_a_visible_screen_on_an_android_app_is_refered_to_as">Quiz 3. A visible screen on an android app is refered to as</string>
+    <string name="editText">----------------------</string>
+    <string name="quiz_4_select_only_the_mobile_operating_systems">Quiz 4. Select only the mobile operating systems</string>
+    <string name="symbian">Symbian</string>
+    <string name="ios">iOS</string>
+    <string name="android">Android</string>
+    <string name="firebase">firebase</string>
+    <string name="zamarin">Zamarin</string>
 </resources>

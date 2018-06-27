@@ -12,8 +12,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="Which of the following is a mobile based databse?" />
-
+            android:text="@string/which_of_the_following_is_a_mobile_based_databse" />
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="200dp"
@@ -24,35 +23,34 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="SQLite" />
+                android:text="@string/sqlite" />
             <RadioButton
                 android:id="@+id/radioButton2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="Intent"
+                android:text="@string/intent"
                 />
             <RadioButton
                 android:id="@+id/radioButton3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="Karnel"
+                android:text="@string/karnel"
                 />
             <RadioButton
                 android:id="@+id/radioButton4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="View"
+                android:text="@string/view"
                 />
         </RadioGroup>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="Quiz. 2. A View contained within another view is called?" />
-
+            android:text="@string/quiz_2_a_view_contained_within_another_view_is_called" />
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="200dp"
@@ -63,60 +61,60 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="cascade View" />
+                android:text="@string/cascade_view" />
             <RadioButton
                 android:id="@+id/radioButton6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="Hidden View" />
+                android:text="@string/hidden_view" />
             <RadioButton
                 android:id="@+id/radioButton7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="Child View" />
+                android:text="@string/child_view" />
             <RadioButton
                 android:id="@+id/radioButton8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="Container View" />
+                android:text="@string/container_view" />
         </RadioGroup>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=" Quiz 3. A visible screen on an android app is refered to as"
+            android:text="@string/quiz_3_a_visible_screen_on_an_android_app_is_refered_to_as"
             android:textColor="@color/colorAccent"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="5dp"
             android:background="@color/colorAccent"
-            android:text="----------------------"/>
+            android:text="@string/editText"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Quiz 4. Select only the mobile operating systems"
+            android:text="@string/quiz_4_select_only_the_mobile_operating_systems"
             />
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Symbian"/>
+            android:text="@string/symbian"/>
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="iOS"/>
+            android:text="@string/ios"/>
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Android"/>
+            android:text="@string/android"/>
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="firebase"/>
+            android:text="@string/firebase"/>
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Zamarin"/>
+            android:text="@string/zamarin"/>
     </LinearLayout>
 </ScrollView>
