@@ -9,10 +9,14 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="@string/which_of_the_following_is_a_mobile_based_databse" />
+            android:text="@string/quiz_1_which_of_the_following_is_a_mobile_based_database" />
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="200dp"
@@ -55,7 +59,7 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_margin="20dp"
-            android:background="@color/colorPrimaryDark">
+            android:background="@android:color/holo_green_light">
             <RadioButton
                 android:id="@+id/radioButton5"
                 android:layout_width="wrap_content"
@@ -88,8 +92,9 @@
             android:textColor="@color/colorAccent"/>
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="5dp"
-            android:background="@color/colorAccent"
+            android:layout_height="20dp"
+            android:background="@android:color/darker_gray"
+            android:layout_margin="20dp"
             android:text="@string/editText"/>
         <TextView
             android:layout_width="match_parent"
@@ -116,5 +121,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/zamarin"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_5_briefly_describe_your_experience_with_google_africa_scholarship_on_the_andela_platform"
+            android:textColor="@color/colorAccent"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@android:color/holo_blue_bright"
+            android:layout_margin="20dp"
+            android:text="@string/editText"/>
     </LinearLayout>
 </ScrollView>

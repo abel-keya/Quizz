@@ -27,4 +27,6 @@
     <string name="android">Android</string>
     <string name="firebase">firebase</string>
     <string name="zamarin">Zamarin</string>
+    <string name="quiz_1_which_of_the_following_is_a_mobile_based_database">Quiz 1. which_of_the_following_is_a_mobile_based_database?</string>
+    <string name="quiz_5_briefly_describe_your_experience_with_google_africa_scholarship_on_the_andela_platform">Quiz 5. Briefly describe your experience with Google Africa Scholarship on the Andela platform</string>
 </resources>
