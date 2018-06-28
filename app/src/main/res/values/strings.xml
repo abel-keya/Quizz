@@ -1,14 +1,6 @@
 <resources>
     <string name="app_name">QuizAPP</string>
     <string name="ResultButtonText" />
-    <string name="which_of_the_folloing_is_the_name_of_the_4th_president_of_kenya">Which of the folloing is the name of the 4th President of kenya?</string>
-    <string name="raila">Raila</string>
-    <string name="moi">Moi</string>
-    <string name="uhuru">Uhuru</string>
-    <string name="twenty_years">Twenty years</string>
-    <string name="thirty_years">Thirty years</string>
-    <string name="forty_years">Forty years</string>
-    <string name="what_is_your_age">What is your Age?</string>
     <string name="which_of_the_following_is_a_mobile_based_databse">Which of the following is a mobile based databse?</string>
     <string name="sqlite">SQLite</string>
     <string name="intent">Intent</string>
@@ -29,7 +21,8 @@
     <string name="zamarin">Zamarin</string>
     <string name="quiz_1_which_of_the_following_is_a_mobile_based_database">Quiz 1. which_of_the_following_is_a_mobile_based_database?</string>
     <string name="quiz_5_briefly_describe_your_experience_with_google_africa_scholarship_on_the_andela_platform">Quiz 5. Briefly describe your experience with Google Africa Scholarship on the Andela platform</string>
-    <string name="_0">0</string>
     <string name="correct_score">CORRECT SCORE</string>
     <string name="android_basics_quiz">ANDROID BASICS QUIZ</string>
+    <string name="score">Score</string>
+    <string name="_0">0</string>
 </resources>
