@@ -29,4 +29,7 @@
     <string name="zamarin">Zamarin</string>
     <string name="quiz_1_which_of_the_following_is_a_mobile_based_database">Quiz 1. which_of_the_following_is_a_mobile_based_database?</string>
     <string name="quiz_5_briefly_describe_your_experience_with_google_africa_scholarship_on_the_andela_platform">Quiz 5. Briefly describe your experience with Google Africa Scholarship on the Andela platform</string>
+    <string name="_0">0</string>
+    <string name="correct_score">CORRECT SCORE</string>
+    <string name="android_basics_quiz">ANDROID BASICS QUIZ</string>
 </resources>
