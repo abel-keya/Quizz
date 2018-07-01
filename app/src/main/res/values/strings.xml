@@ -25,4 +25,18 @@
     <string name="android_basics_quiz">ANDROID BASICS QUIZ</string>
     <string name="score">Score</string>
     <string name="_0">0</string>
+    <string name="views">views</string>
+    <string name="widget">widget</string>
+    <string name="container">container</string>
+    <string name="button">Button</string>
+    <string name="enter_answer_here">Enter Answer here</string>
+    <string name="submit_quiz">submit Quiz</string>
+    <string name="quiz_5_a_view_contained_within_another_view_is_called">Quiz_5_a_view_contained_within_another_view_is_called</string>
+    <string name="quiz_4_which_of_the_following_is_a_mobile_based_database">Quiz_4_which_of_the_following_is_a_mobile_based_database</string>
+    <string name="quiz_2_briefly_describe_your_experience_with_google_africa_scholarship_on_the_andela_platform">Quiz 2._briefly_describe_your_experience_with_google_africa_scholarship_on_the_andela_platform</string>
+    <string name="quiz_1_select_only_the_mobile_operating_systems">Quiz_1_select_only_the_mobile_operating_systems</string>
+    <string name="quiz5_a_view_contained_within_another_view_is_called">Quiz5 A view contained within another view is called?</string>
+    <string name="quiz4_which_of_the_following_is_a_mobile_based_database">Quiz4.Which of the following is a mobile based database</string>
+    <string name="quiz_2_list_three_types_of_mobile_browsers">Quiz 2.List THREE types of Mobile browsers.</string>
+    <string name="quiz_1_select_the_types_of_mobile_operating_systems">Quiz.1 Select the types of mobile operating systems</string>
 </resources>

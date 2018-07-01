@@ -13,160 +13,219 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="8dp"
             android:layout_margin="30dp"
-            android:layout_marginBottom="20dp">
+            android:layout_marginBottom="20dp"
+            android:padding="8dp">
 
             <TextView
                 android:id="@+id/textView1"
-                android:layout_alignParentTop="true"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/android_basics_quiz"
-                android:textSize="20dp"
+                android:layout_alignParentTop="true"
                 android:layout_margin="20dp"
-                android:textColor="@android:color/holo_red_light" />
+                android:text="@string/android_basics_quiz"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="20dp" />
 
             <TextView
+                android:id="@+id/score_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/score"
-                android:layout_below="@id/textView1"
-                android:textSize="20sp"
                 android:layout_alignParentLeft="true"
-                android:id="@+id/score_text" />
+                android:layout_below="@id/textView1"
+                android:text="@string/score"
+                android:textSize="20sp" />
 
             <TextView
+                android:id="@+id/score"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/textView1"
-                android:id="@+id/score"
+                android:layout_marginLeft="20dp"
                 android:layout_toRightOf="@+id/score_text"
-                android:text="@string/_0"
-                android:textSize="20sp"
                 android:padding="4dp"
-                android:layout_marginLeft="20dp" />
+                android:text="@string/_0"
+                android:textSize="20sp" />
         </RelativeLayout>
+        <TextView
+            android:id="@+id/quiz4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_1_select_the_types_of_mobile_operating_systems" />
+
+        <CheckBox
+            android:id="@+id/Answes13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="selectItem"
+            android:text="@string/symbian" />
+
+        <CheckBox
+            android:id="@+id/Answers14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="selectItem"
+            android:text="@string/ios" />
+
+        <CheckBox
+            android:id="@+id/Answers15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="selectItem"
+            android:text="@string/android" />
+
+        <CheckBox
+            android:id="@+id/Answers16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="selectItem"
+            android:text="@string/firebase" />
+
+        <CheckBox
+            android:id="@+id/Answers17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="selectItem"
+            android:text="@string/zamarin" />
 
         <TextView
+            android:id="@+id/quiz5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_2_list_three_types_of_mobile_browsers"
+            android:textColor="@color/colorAccent" />
+
+        <EditText
+            android:id="@+id/Answers18"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            android:background="@android:color/holo_blue_bright"
+            android:text="@string/enter_answer_here" />
+
+        <TextView
+            android:id="@+id/quiz3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_3_a_visible_screen_on_an_android_app_is_refered_to_as"
+            android:textColor="@color/colorAccent" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_bright">
+            <RadioButton
+                android:id="@+id/Answers9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/views" />
+            <RadioButton
+                android:id="@+id/Answers10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/widget" />
+            <RadioButton
+                android:id="@+id/Answers11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/container" />
+            <RadioButton
+                android:id="@+id/Answers12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/button" />
+        </RadioGroup>
+        <TextView
+            android:id="@+id/quiz1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="@string/quiz_1_which_of_the_following_is_a_mobile_based_database" />
+            android:text="@string/quiz4_which_of_the_following_is_a_mobile_based_database" />
         <RadioGroup
             android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_margin="20dp"
+            android:layout_height="wrap_content"
             android:background="@color/colorAccent">
             <RadioButton
-                android:id="@+id/radioButton1"
+                android:id="@+id/Answers1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:text="@string/sqlite" />
             <RadioButton
-                android:id="@+id/radioButton2"
+                android:id="@+id/Answers2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="@string/intent"
-                />
+                android:text="@string/intent" />
             <RadioButton
-                android:id="@+id/radioButton3"
+                android:id="@+id/Answers3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="@string/karnel"
-                />
+                android:text="@string/karnel" />
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/Answers4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="@string/view"
-                />
+                android:text="@string/view" />
+
         </RadioGroup>
         <TextView
+            android:id="@+id/quiz2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="@string/quiz_2_a_view_contained_within_another_view_is_called" />
+            android:text="@string/quiz5_a_view_contained_within_another_view_is_called" />
+
         <RadioGroup
             android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_margin="20dp"
-            android:background="@android:color/holo_green_light">
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_green_dark">
+
             <RadioButton
-                android:id="@+id/radioButton5"
+                android:id="@+id/Answers5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:text="@string/cascade_view" />
+
             <RadioButton
-                android:id="@+id/radioButton6"
+                android:id="@+id/Answers6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:text="@string/hidden_view" />
+
             <RadioButton
-                android:id="@+id/radioButton7"
+                android:id="@+id/Answers7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:text="@string/child_view" />
+
             <RadioButton
-                android:id="@+id/radioButton8"
+                android:id="@+id/Answers8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:text="@string/container_view" />
         </RadioGroup>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/quiz_3_a_visible_screen_on_an_android_app_is_refered_to_as"
-            android:textColor="@color/colorAccent"/>
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="20dp"
-            android:background="@android:color/darker_gray"
-            android:layout_margin="20dp"
-            android:text="@string/editText"/>
-        <TextView
+
+        <Button
+            android:id="@+id/SubmitQuiz"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/quiz_4_select_only_the_mobile_operating_systems"
-            />
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/symbian"/>
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/ios"/>
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/android"/>
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/firebase"/>
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/zamarin"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/quiz_5_briefly_describe_your_experience_with_google_africa_scholarship_on_the_andela_platform"
-            android:textColor="@color/colorAccent"/>
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:background="@android:color/holo_blue_bright"
-            android:layout_margin="20dp"
-            android:text="@string/editText"/>
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:onClick="submitQuiz"
+            android:text="@string/submit_quiz"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textSize="30sp" />
     </LinearLayout>
 </ScrollView>
